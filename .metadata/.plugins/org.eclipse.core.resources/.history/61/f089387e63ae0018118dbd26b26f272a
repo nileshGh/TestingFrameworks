@@ -1,0 +1,13 @@
+package com.mycompany.app;
+
+import org.junit.Test;
+
+public class Testcase1 {
+	
+	@Test
+	public void testcaseNo() {
+		
+	}
+	
+
+}

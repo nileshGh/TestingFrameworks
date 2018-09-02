@@ -1,0 +1,8 @@
+<suite name="Example Test Suite" verbose="1" allow-return-values="true">
+	<test name="Example tests">
+    	<classes>
+            <class name="main.Testcase1" />
+            <class name="main.ExampleTest2" />
+        </classes>
+	</test>
+</suite>

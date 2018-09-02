@@ -1,0 +1,31 @@
+package sample.test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class JunitAssertions {
+	@Test		
+    public void testAssert(){					
+        		
+        //Variable declaration		
+        String string1="Junit";					
+        String string2="Junit";					
+        String string3="test";					
+        String string4="test";					
+        String string5=null;					
+        int number1=1;					
+        int	number2=2;					
+        int[] arrary1 = { 1, 2, 3 };					
+        int[] arrary2 = { 1, 2, 3 };					
+        		
+        //Assert statements		
+        assertEquals(string1,string2);					
+        assertSame(string3, string4);					
+        assertNotSame(string1, string3);					
+        assertNotNull(string1);			
+        assertNull(string5);			
+        assertTrue(number1<number2);					
+        assertArrayEquals(arrary1, arrary2);		
+    }		
+}

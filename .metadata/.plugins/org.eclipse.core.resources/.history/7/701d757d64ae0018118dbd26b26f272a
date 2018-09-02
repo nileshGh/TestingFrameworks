@@ -1,0 +1,15 @@
+package com.mycompany.app;
+
+import org.junit.Test;
+
+import junit.framework.TestCase;
+
+public class Testcase1  extends TestCase{
+	
+	@Test
+	public void testcaseNo() {
+		assertTrue(false);
+	}
+	
+
+}

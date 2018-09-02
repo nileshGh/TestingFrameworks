@@ -1,0 +1,12 @@
+package snippet;
+
+import org.junit.Test;
+
+public class Snippet {
+	 @Test
+	   public void testSetup() {
+	      String str= "I am done with Junit setup";
+	      assertEquals("I am done with Junit setup",str);
+	   }
+}
+

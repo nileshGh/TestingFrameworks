@@ -1,0 +1,9 @@
+package com.mycompany.app;
+
+import junit.framework.TestSuite;
+
+public class TestSuiteExample extends TestSuite {
+	
+	
+
+}

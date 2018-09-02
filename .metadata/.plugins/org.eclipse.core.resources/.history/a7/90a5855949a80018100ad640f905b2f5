@@ -1,0 +1,14 @@
+package sample.test;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+public class Testcase1 {
+	@Test
+	   public void testSetup() {
+	      String str= "Test assertion";
+	      assertEquals("Test assertion",str);
+	   }
+
+}

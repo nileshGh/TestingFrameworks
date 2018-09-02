@@ -1,0 +1,11 @@
+package com.mycompany.app;
+
+public class Testcase1 {
+	
+	@Test
+	public void testcaseNo() {
+		
+	}
+	
+
+}
